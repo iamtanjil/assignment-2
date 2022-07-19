@@ -102,46 +102,28 @@ a{
     align-items: center;
     justify-content: center;
 }
-.match-container{
+.time-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: 80px;
 }
-.match{
-    height: 350px;
-    width: 312px;
+.match-time{
+    height: 300px;
+    width: 300px;
     border: 2px solid grey;
-    border-radius: 12px;
-    margin: 5px 5px 30px 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
 }
-.match-image{
-    margin-bottom: 20px;
-}
-.match-button{
-    border: 2px solid black;
-    padding: 5px;
-    color: black;
-    border-radius: 5px;
-    height: 8px;
-    width: 80px;
-    margin: 15px;
-}
-.match-title{
-    margin: 15px;
-}
-.match-info{
+.flag{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: -20px 0 10px 15px;
-}
-.match-icon{
-    height: 30px;
-    width: 30px;
+    justify-content: space-around;
+    margin-top: 80px;
 }
 /* Footer */
 footer
 {
+    margin-top: 40px;
     width: 100%;
     height: 200px;
     background-color: rgb(20, 22, 29);
