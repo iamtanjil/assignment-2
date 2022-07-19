@@ -5,3 +5,48 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F9F9F9;
 }
+a{
+    text-decoration: none;
+}
+.button{
+    background-color: rgb(241, 41, 57);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: rgb(20, 22, 29);
+    border: 2px solid rgb(241, 41, 57);
+    border-radius: 15px;
+    transform: scale(0);
+}
+/* Home Section */
+.home-container
+{
+    background-color: rgb(20, 22, 29);
+    display: flex;
+    margin: 25px 80px;
+    border-radius: 10px;
+}
+.banner-title{
+    color: white;
+    width: 550px;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 20px 40px;
+}
+.banner-description{
+    color: white;
+    width: 550px;
+    font-size: 20px;
+    padding: 0 0 40px 40px;
+}
+.banner-button{
+    margin: 20px 20px 50px 40px;
+}
+.banner-image{
+    margin-left: 200px;
+    width: 500px;
+}
